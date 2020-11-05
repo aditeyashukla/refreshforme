@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Refresh for me",
+    "description": "Refresh pages cause some websites wont do it for u"
+  },
+  "appDesc": {
+    "message": "This app helps you set automatic refresh scripts",
+    "description": "Refresh pages cause some websites wont do it for u"
+  }
+}

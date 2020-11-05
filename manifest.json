@@ -1,0 +1,21 @@
+{
+  "name": "Refresh for me",
+  "version": "1.0",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "description": "Refresh pages cause some websites wont do it for u",
+  "icons" : {
+    "128": "icon-128.png"
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon-128.png"
+  },
+  "background": {
+    "scripts": ["chrm.js"],
+    "persistent": false
+  },
+
+  "permissions": ["activeTab", "tabs"]
+}

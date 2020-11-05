@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Noto+Sans+JP:wght@300&display=swap');
+
+body {
+    width: 100px;
+    height: 96px;
+    background-color: #cee3f5;
+    color: #535150;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+input {
+    width: 30px;
+}
+
+#status {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #563a75;
+    cursor: pointer;
+}
+
+#reset{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+
+
+}
+
+#reset:hover{
+    color: #535150; !important;
+}
